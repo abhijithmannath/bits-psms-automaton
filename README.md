@@ -1,7 +1,7 @@
 # Proceed at your own risk
 
-Open console with **Ctrl + Shift + J**
-Copy all the contents of drag.js to the javascript console.Change code.js as required and paste it in the console.
+Open console with **Ctrl + Shift + J**.  
+Copy all the contents of drag.js to the javascript console. Change code.js as required and paste it in the console.
 
 ls is an array containing all the selected elements that will be dragged. Iterate through them in a loop and pass the index of element to scroll, ie. within the range of 0 to ls.length and also pass the position the first elment in the array must be dragged to as the second argument.
 
