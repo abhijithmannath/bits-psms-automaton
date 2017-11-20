@@ -6,13 +6,16 @@ ls=$(".ui-state-default:even").filter(function( index ) {
 	return expr.test(_str);
 });
 
+//////////////////////////////// Skip the piece of code below if you wish to simply just drag all the IT stations ///////////////////////
+
 ls = ls.filter(function( index ) {
 	expr = /Bangalore/i;
 	_str=$(this).children().eq(0).html();
 	return expr.test(_str);
 });
 
-console.log(ls.length, 'will be dragged')
+
+console.log(ls.length, 'will be dragged')   // Total count of all IT staions in Bangalore
 ////////////////////////////////// These elements will be moved around //////////////////////////////////////
 
 
